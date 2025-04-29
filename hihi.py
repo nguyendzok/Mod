@@ -27,19 +27,19 @@ from telegram.constants import ParseMode
 from telegram.error import BadRequest, Forbidden, TelegramError
 
 # --- Cấu hình ---
-BOT_TOKEN = "7416039734:AAHi1YS3uxLGg_KAyqddbZL8OxXB1wamga8" # <--- TOKEN CỦA BẠN
+BOT_TOKEN = "7760706295:AAEt3CTNHqiJZyFQU7lJrvatXZST_JwD5Ds" # <--- TOKEN CỦA BẠN
 API_KEY = "khangdino99" # <--- API KEY TIM (VẪN CẦN CHO LỆNH /tim)
-ADMIN_USER_ID = 7193749511 # <<< --- ID TELEGRAM CỦA ADMIN (Người quản lý bot)
+ADMIN_USER_ID = 6367528163 # <<< --- ID TELEGRAM CỦA ADMIN (Người quản lý bot)
 
 # --- YÊU CẦU 2: ID của bot @khangtaixiu_bot để nhận bill ---
 # !!! QUAN TRỌNG: Bạn cần tìm ID SỐ của bot @khangtaixiu_bot và thay thế giá trị dưới đây !!!
 # Cách tìm: Chat với @userinfobot, gửi username @khangtaixiu_bot vào đó.
-BILL_FORWARD_TARGET_ID = 7193749511 # <<< --- THAY THẾ BẰNG ID SỐ CỦA @khangtaixiu_bot
+BILL_FORWARD_TARGET_ID = 6367528163 # <<< --- THAY THẾ BẰNG ID SỐ CỦA @khangtaixiu_bot
 # ----------------------------------------------------------------
 
 # ID Nhóm chính để nhận bill và thống kê. Các lệnh khác hoạt động mọi nơi.
 # Nếu không muốn giới hạn, đặt thành None, nhưng bill và thống kê sẽ không hoạt động hoặc cần sửa logic.
-ALLOWED_GROUP_ID = -1002191171631 # <--- ID NHÓM CHÍNH CỦA BẠN HOẶC None
+ALLOWED_GROUP_ID = -1002523305664 # <--- ID NHÓM CHÍNH CỦA BẠN HOẶC None
 
 LINK_SHORTENER_API_KEY = "cb879a865cf502e831232d53bdf03813caf549906e1d7556580a79b6d422a9f7" # Token Yeumoney
 BLOGSPOT_URL_TEMPLATE = "https://khangleefuun.blogspot.com/2025/04/key-ngay-body-font-family-arial-sans_11.html?m=1&ma={key}" # Link đích chứa key
@@ -64,11 +64,11 @@ VIP_PRICES = {
     15: {"price": "15.000 VND", "limit": 2, "duration_days": 15},
     30: {"price": "30.000 VND", "limit": 5, "duration_days": 30},
 }
-QR_CODE_URL = "https://i.imgur.com/49iY7Ft.jpeg" # Link ảnh QR Code
-BANK_ACCOUNT = "KHANGDINO" # <--- THAY STK CỦA BẠN
-BANK_NAME = "VCB BANK" # <--- THAY TÊN NGÂN HÀNG
-ACCOUNT_NAME = "LE QUOC KHANG" # <--- THAY TÊN CHỦ TK
-PAYMENT_NOTE_PREFIX = "VIP DinoTool ID" # Nội dung chuyển khoản sẽ là: "VIP DinoTool ID <user_id>"
+QR_CODE_URL = "." # Link ảnh QR Code
+BANK_ACCOUNT = "11223344557766" # <--- THAY STK CỦA BẠN
+BANK_NAME = "MB" # <--- THAY TÊN NGÂN HÀNG
+ACCOUNT_NAME = "Hoang Ngoc Nguyen" # <--- THAY TÊN CHỦ TK
+PAYMENT_NOTE_PREFIX = "VIP ID" # Nội dung chuyển khoản sẽ là: "VIP DinoTool ID <user_id>"
 
 # --- Lưu trữ ---
 DATA_FILE = "bot_persistent_data.json"

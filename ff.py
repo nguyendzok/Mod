@@ -28,16 +28,16 @@ from telegram.constants import ParseMode
 from telegram.error import BadRequest, Forbidden, TelegramError
 
 # --- Cấu hình ---
-BOT_TOKEN = "7416039734:AAHi1YS3uxLGg_KAyqddbZL8OxXB1wamga8" # <--- TOKEN CỦA BẠN
+BOT_TOKEN = "7760706295:AAEt3CTNHqiJZyFQU7lJrvatXZST_JwD5Ds" # <--- TOKEN CỦA BẠN
 API_KEY = "khangdino99" # <--- API KEY TIM (VẪN CẦN CHO LỆNH /tim)
-ADMIN_USER_ID = 7193749511 # <<< --- ID TELEGRAM CỦA ADMIN (Người quản lý bot)
+ADMIN_USER_ID = 6367528163 # <<< --- ID TELEGRAM CỦA ADMIN (Người quản lý bot)
 
 # --- ID của bot/user nhận bill ---
-BILL_FORWARD_TARGET_ID = 7193749511 # <<< --- THAY THẾ BẰNG ID SỐ CỦA @khangtaixiu_bot HOẶC USER ADMIN
+BILL_FORWARD_TARGET_ID = 6367528163 # <<< --- THAY THẾ BẰNG ID SỐ CỦA @khangtaixiu_bot HOẶC USER ADMIN
 # ----------------------------------------------------------------
 
 # ID Nhóm chính để THỐNG KÊ. Bill được gửi từ PM.
-ALLOWED_GROUP_ID = -1002191171631 # <--- ID NHÓM CHÍNH CỦA BẠN CHO THỐNG KÊ HOẶC None
+ALLOWED_GROUP_ID = -1002523305664 # <--- ID NHÓM CHÍNH CỦA BẠN CHO THỐNG KÊ HOẶC None
 
 LINK_SHORTENER_API_KEY = "cb879a865cf502e831232d53bdf03813caf549906e1d7556580a79b6d422a9f7" # Token Yeumoney
 BLOGSPOT_URL_TEMPLATE = "https://khangleefuun.blogspot.com/2025/04/key-ngay-body-font-family-arial-sans_11.html?m=1&ma={key}" # Link đích chứa key
@@ -63,10 +63,10 @@ VIP_PRICES = {
     15: {"price": "15.000 VND", "limit": 2, "duration_days": 15},
     30: {"price": "30.000 VND", "limit": 5, "duration_days": 30},
 }
-BANK_ACCOUNT = "KHANGDINO" # <--- THAY STK CỦA BẠN
-BANK_NAME = "VCB BANK" # <--- THAY TÊN NGÂN HÀNG
-ACCOUNT_NAME = "LE QUOC KHANG" # <--- THAY TÊN CHỦ TK
-PAYMENT_NOTE_PREFIX = "VIP DinoTool ID"
+BANK_ACCOUNT = "trumcheckaccff" # <--- THAY STK CỦA BẠN
+BANK_NAME = "11223344557766 mb" # <--- THAY TÊN NGÂN HÀNG
+ACCOUNT_NAME = "Hoang Ngoc Nguyen" # <--- THAY TÊN CHỦ TK
+PAYMENT_NOTE_PREFIX = "VIP ID"
 
 # --- Lưu trữ ---
 DATA_FILE = "bot_persistent_data.json"

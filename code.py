@@ -23,9 +23,9 @@ from telegram.error import BadRequest, Forbidden
 import ssl
 
 # --- Cấu hình ---
-BOT_TOKEN = "7416039734:AAHi1YS3uxLGg_KAyqddbZL8OxXB1wamga8" # <--- TOKEN CỦA BẠN
+BOT_TOKEN = "7760706295:AAEt3CTNHqiJZyFQU7lJrvatXZST_JwD5Ds" # <--- TOKEN CỦA BẠN
 API_KEY = "shareconcac" # <--- API KEY TIM/FL CỦA BẠN
-ALLOWED_GROUP_ID = -1002191171631 # <--- GROUP ID CỦA BẠN
+ALLOWED_GROUP_ID = -1002523305664 # <--- GROUP ID CỦA BẠN
 
 LINK_SHORTENER_API_KEY = "cb879a865cf502e831232d53bdf03813caf549906e1d7556580a79b6d422a9f7" # Token Yeumoney
 BLOGSPOT_URL_TEMPLATE = "https://khangleefuun.blogspot.com/2025/04/key-ngay-body-font-family-arial-sans_11.html?m=1&ma={key}" # Link đích chứa key

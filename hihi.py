@@ -915,11 +915,12 @@ async def process_fl_request_background(
         save_data()
         logger.info(f"[BG Task /fl] Success for user {user_id_str} -> @{target_username}. Cooldown updated.")
         final_response_text = (
-            f"✅ <b>Tăng Follow Thành Công!</b>\n"
-            f"✨ Cho: {invoking_user_mention}\n\n"
-            f"{user_info_block if user_info_block else f'👤 <b>Tài khoản:</b> <code>@{html.escape(target_username)}</code>\n'}" # Fallback nếu user_info_block rỗng
-            f"{follower_info_block if follower_info_block else ''}" # Chỉ thêm nếu có
-        )
+    f"✅ <b>Tăng Follow Thành Công!</b>\n"
+    f"✨ Cho: {invoking_user_mention}\n\n"
+    f"{user_info_block if user_info_block else f'👤 <b>Tài khoản:</b> <code>@{html.escape(target_username)}</code>\n'}"
+    f"{follower_info_block if follower_info_block else ''}"
+)
+
     else:
         logger.warning(f"[BG Task /fl] Failed for user {user_id_str} -> @{target_username}. API Message: {api_message}")
         final_response_text = (
